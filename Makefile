@@ -7,8 +7,8 @@ build-hosting:
 	mkdir dist
 	cp index.html dist
 	mkdir dist/pkg
-	cp pkg/paint-wasm.js dist/pkg
-	cp pkg/paint-wasm.wasm dist/pkg
+	cp pkg/paint_wasm.js dist/pkg
+	cp pkg/paint_wasm_bg.wasm dist/pkg
 
 start:
 	python3 -m http.server

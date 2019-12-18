@@ -54,9 +54,9 @@ pub fn start_app() -> Result<(), JsValue> {
 
     let (w, h) = get_body_dimensions(&body);
     // offset solid space
-    canvas.set_width(w - 4);
-    canvas.set_height(h - 4);
-    canvas.style().set_property("border", "2px solid")?;
+    canvas.set_width(w - 10);
+    canvas.set_height(h - 10);
+    canvas.style().set_property("border", "5px solid")?;
 
     let context = canvas
         .get_context("2d")
