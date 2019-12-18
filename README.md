@@ -1,5 +1,7 @@
 # paint-wasm
 
+this repo is sample for mouse event listener on wasm
+
 ## Usage
 
 - generate
